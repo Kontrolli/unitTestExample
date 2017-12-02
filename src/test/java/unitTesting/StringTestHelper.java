@@ -35,5 +35,10 @@ public class StringTestHelper {
 	public void testareFirstAndLastTwoCharactersTheSame_test_AABAA(){
 		assertEquals(true, helper.areFirstAndLastTwoCharactersTheSame("AABAA"));
 	}
+	
+	@Test
+	public void testareFirstAndLastTwoCharactersTheSame_test_AABA1A(){
+		assertEquals(true, helper.areFirstAndLastTwoCharactersTheSame("AABA1A"));
+	}
 
 }
